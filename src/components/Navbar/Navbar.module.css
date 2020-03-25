@@ -1,0 +1,18 @@
+.nav{
+    width: calc(20% - 4%);
+    height: calc(80% - 4%);
+    background: green;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-size: 25px;
+    
+  }
+  .item a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .item a.active{
+    color: gold;
+  }

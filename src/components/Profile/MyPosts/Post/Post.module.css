@@ -1,0 +1,36 @@
+
+  .post{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    width: calc(100% - 2%);
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .post img{
+    align-self: center;
+    width: 60px;
+    height: 60px;
+    margin-right: 2%;
+    border-radius: 50%;
+  }
+  .content{
+    display: flex;
+  }
+  .post button{
+    align-self: flex-end;
+    cursor: pointer;
+  }
+  .userPostContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .userPostContent a{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .userPostContent a:hover{
+    text-decoration: green;
+  }

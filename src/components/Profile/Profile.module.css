@@ -1,0 +1,39 @@
+
+  .box{
+    height: 100%;
+  }
+  
+  .NewsBlock{
+    width: 100%;
+  }
+  .PostBlock form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80%;
+  }
+  .PostBlock form textarea{
+    align-self: center;
+    width: 100%;
+    resize: none;
+  }
+  .PostBlock form input[type="submit"]{
+    width: 10%;
+    height: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-top: 1%;
+  }
+  .post{
+    display: flex;
+  }
+  .ava{
+    border-radius: 50%;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+    margin-bottom: 1%;
+  }

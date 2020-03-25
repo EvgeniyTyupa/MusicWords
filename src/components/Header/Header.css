@@ -1,0 +1,8 @@
+.header{
+    width: 100%;
+    height: 6%;
+    background: green;
+  }
+  .header img{
+    width: 50px;
+  }
